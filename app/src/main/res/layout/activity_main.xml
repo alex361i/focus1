@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:padding="10dp">
+
+    <TextView
+	    android:id="@+id/muse_id"
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+		android:gravity="center"/>
+
+	<Button
+        android:id="@+id/connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connect" />
+
+	<Button
+        android:id="@+id/disconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/disconnect" />
+
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/refresh"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/refresh" />
+
+	</LinearLayout>
+
+	<TextView
+    	android:id="@+id/con_status"
+   		android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_weight="1"
+    	android:textSize="16sp"
+    	android:text="Connection Status"
+		android:paddingRight="10dp"/>
+
+	<TextView
+		android:id="@+id/blink"
+		android:layout_width="match_parent"
+		android:layout_height="52dp"
+		android:textSize="16sp"
+		android:text="Blink:"
+		android:paddingRight="10dp"/>
+
+	<TextView
+		android:id="@+id/jawn"
+		android:layout_width="match_parent"
+		android:layout_height="43dp"
+		android:textSize="16sp"
+		android:text="Jawn:"
+		android:paddingRight="10dp"/>
+
+	<TextView
+		android:layout_width="364dp"
+		android:layout_height="44dp"
+		android:textSize="16sp"
+		android:text="Stages"
+		android:id="@+id/is_connected"
+		android:paddingRight="10dp"/>
+
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+		android:textSize="16sp"
+        android:text="@string/eeg" />
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/eeg_tp9"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textSize="16sp"
+	        android:text="@string/init_val" />
+        <TextView
+            android:id="@+id/eeg_fp1"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textSize="16sp"
+	        android:text="@string/init_val" />
+        <TextView
+            android:id="@+id/eeg_fp2"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textSize="16sp"
+	        android:text="@string/init_val" />
+        <TextView
+            android:id="@+id/eeg_tp10"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textSize="16sp"
+	        android:text="@string/init_val"
+			android:autoText="false" />
+    </LinearLayout>
+
+	<TextView
+	   		android:layout_width="match_parent"
+	    	android:layout_height="match_parent"
+	    	android:layout_weight="1"
+	    	android:textSize="16sp"
+	    	android:text="Battery"
+		android:id="@+id/battery_status" />
+
+	<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="45dp"
+	        android:orientation="horizontal" >
+	        <Button
+	            android:id="@+id/pause"
+	            android:layout_width="match_parent"
+	            android:layout_height="40dp"
+	            android:text="@string/pause" />
+		</LinearLayout>
+
+</LinearLayout>

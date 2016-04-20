@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\yo\Desktop\AndroidStudio\focus1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\yo\Desktop\AndroidStudio\focus1\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_595cd23e843ac7222df58f12110de024bfe5bb28.jar" />
+    </item>
+    <item
+        jar="C:\Users\yo\Desktop\AndroidStudio\focus1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\yo\Desktop\AndroidStudio\focus1\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_fee5018819d7482b6c68e004c441988136442e27.jar" />
+    </item>
+    <item
+        jar="C:\Users\yo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\yo\Desktop\AndroidStudio\focus1\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_96d16108c5509d751f1cb2416ee79d556b4f1fe8.jar" />
+    </item>
+    <item
+        jar="C:\Users\yo\Desktop\AndroidStudio\focus1\app\libs\libmuse_android.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c632442395aafd8ad1cfcdba4acef99a5861c2e6">
+        <dex dex="C:\Users\yo\Desktop\AndroidStudio\focus1\app\build\intermediates\pre-dexed\debug\libmuse_android_9578fb3633b721e87f5161e4ae4b18baedf96b33.jar" />
+    </item>
+
+</items>
